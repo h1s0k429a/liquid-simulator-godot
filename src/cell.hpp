@@ -30,7 +30,7 @@ class Cell {
         liquid_amount = amount;
         new_liquid_amount = amount;
         sprite_node = godot::Object::cast_to<godot::Sprite>(node->get_node("Sprite"));
-	    sprite_height = sprite_node->get_texture()->get_height();
+        sprite_height = sprite_node->get_texture()->get_height();
         dir_bottom = false;
         uid = hash_position(pos_x, pos_y);
         iteration_since_last_change = 0;

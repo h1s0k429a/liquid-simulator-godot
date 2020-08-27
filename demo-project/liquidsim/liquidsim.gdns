@@ -1,7 +1,11 @@
 [gd_resource type="NativeScript" load_steps=2 format=2]
 
-[ext_resource path="res://liquidsim/libliquidsim.gdnlib" type="GDNativeLibrary" id=1]
+[sub_resource type="GDNativeLibrary" id=1]
+entry/OSX.64 = "res://liquidsim/osx/libliquidsim.dylib"
+entry/X11.64 = "res://bin/x11/libliquidsim.so"
+dependency/OSX.64 = [  ]
+dependency/X11.64 = [  ]
 
 [resource]
 class_name = "LiquidSim"
-library = ExtResource( 1 )
+library = SubResource( 1 )

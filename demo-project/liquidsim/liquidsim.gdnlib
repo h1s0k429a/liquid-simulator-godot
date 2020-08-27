@@ -7,14 +7,14 @@ reloadable=false
 
 [entry]
 
-X11.64="res://liquidsim/x11/libliquidsim.so"
-Windows.64="res://liquidsim/win64/libliquidsim.dll"
-OSX.64="res://liquidsim/osx/libliquidsim.dylib"
 Android.armeabi-v7a="res://liquidsim/bin/android/libliquidsim.so"
+OSX.64="res://liquidsim/osx/libliquidsim.dylib"
+Windows.64="res://liquidsim/win64/libliquidsim.dll"
+X11.64="res://bin/x11/libliquidsim.so"
 
 [dependencies]
 
-X11.64=[  ]
-Windows.64=[  ]
-OSX.64=[  ]
 Android.armeabi-v7a=[  ]
+OSX.64=[  ]
+Windows.64=[  ]
+X11.64=[  ]
